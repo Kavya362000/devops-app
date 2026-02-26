@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "CI/CD Project Working Automatically!"
+    return "CI/CD Updated Automatically!"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
