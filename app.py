@@ -3,7 +3,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "CI/CD Updated Automatically!"
     return "Pipeline worked Successfully!!!"
 
 if __name__ == "__main__":
